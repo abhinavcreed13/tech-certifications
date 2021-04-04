@@ -27,7 +27,7 @@
 - VM needs to a part of virtual network → separate resource → created in the same region
     - Provides subnet + Public IP
 
-![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled.png)
+![images/section2/Untitled.png](images/section2/Untitled.png)
 
 - All resources created in deploying a VM
 

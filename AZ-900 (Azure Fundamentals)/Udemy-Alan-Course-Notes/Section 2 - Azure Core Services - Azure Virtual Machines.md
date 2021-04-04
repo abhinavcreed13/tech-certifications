@@ -31,13 +31,13 @@
 
 - All resources created in deploying a VM
 
-![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%201.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%201.png)
+![images/section2/Untitled%201.png](images/section2/Untitled%201.png)
 
 - Connect using RDP → Username + Password
 
 ### Azure Subscription → Usage + Quotas to see the limits for the subscription
 
-![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%202.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%202.png)
+![images/section2/Untitled%202.png](images/section2/Untitled%202.png)
 
 ### Generations in VMs Images
 
@@ -48,9 +48,9 @@
 
 - Install IIS on Windows Server VM → Server Manager
 
-    ![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%203.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%203.png)
+    ![images/section2/Untitled%203.png](images/section2/Untitled%203.png)
 
-    ![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%204.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%204.png)
+    ![images/section2/Untitled%204.png](images/section2/Untitled%204.png)
 
     - Access IIS from outside → Enable port 80 in NSG (Network Security Group) → Networking Tab
 
@@ -77,7 +77,7 @@
 
 - Create a Linux VM
 
-    ![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%205.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%205.png)
+    ![images/section2/Untitled%205.png](images/section2/Untitled%205.png)
 
     - Install nginx → hosted on port 80
 
@@ -88,7 +88,7 @@
 
     - Add port 80 in NSG (inbound rules)
 
-    ![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%206.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%206.png)
+    ![images/section2/Untitled%206.png](images/section2/Untitled%206.png)
 
 ### Azure Marketplace
 
@@ -96,16 +96,16 @@
 
 - Deploy wordpress → search for solution + deploy
 
-![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%207.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%207.png)
+![images/section2/Untitled%207.png](images/section2/Untitled%207.png)
 
-![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%208.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%208.png)
+![images/section2/Untitled%208.png](images/section2/Untitled%208.png)
 
 ### **Availability Sets**
 
 - Set of VMs hosting the same application → load balancing
 - 2 VMs hosted on the same physical server/rack and what if the server goes down, then application also goes down
 
-![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%209.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%209.png)
+![images/section2/Untitled%209.png](images/section2/Untitled%209.png)
 
 - VM launched on the availability set → assigned to a fault domain
 - Another VM launched → assigned to another fault domain
@@ -115,11 +115,11 @@
 - Updates are done one at a time so that it is being server from other server
 - **Create Availability Set**
 
-    ![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%2010.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%2010.png)
+    ![images/section2/Untitled%2010.png](images/section2/Untitled%2010.png)
 
     - There is no way to assign an existing VM to an availability set
 
-    ![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%2011.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%2011.png)
+    ![images/section2/Untitled%2011.png](images/section2/Untitled%2011.png)
 
     - If fault domain 0 goes down, then application can be served from fault domain 1
     - If there is any planned maintainence on the physical server, then if update domain 0 is being updated, then update domain 1 can be used to serve the application
@@ -145,7 +145,7 @@
         - Update domains are used for patching of the virtual machines.
         - Only one update domain would be updated at the time
 
-        ![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%2012.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%2012.png)
+        ![images/section2/Untitled%2012.png](images/section2/Untitled%2012.png)
 
 ### Availability Zones
 
@@ -153,7 +153,7 @@
 - Unique physical locations that are equipped with independent power, cooling and networking
 - Normally 3 availability zones in a region
 
-![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%2013.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%2013.png)
+![images/section2/Untitled%2013.png](images/section2/Untitled%2013.png)
 
 - More broad - availability across data center
 - If entire data centre in zone 1 goes down, it can be accessed from other zones.
@@ -161,7 +161,7 @@
 - No additional cost for creating VMs with Availability Set/Zone
 - Though Extra Cost for bandwidth communication across VMs in different zones - only for Availability Zones
 
-![#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%2014.png](#2%20Azure%20Core%20Services%20-%20Azure%20Virtual%20Machines%209c62d6035ed546639cc25d23658e95d0/Untitled%2014.png)
+![images/section2/Untitled%2014.png](images/section2/Untitled%2014.png)
 
 - Multiple regions will generally have 3 different zones
 

@@ -1,6 +1,25 @@
 # #4 Azure Core Services - Azure Storage
 
-### **Introduction to Azure Storage**
+## Table of Contents
+- [**Introduction to Azure Storage**](#introduction-to-azure-storage)
+- [**Azure Storage Accounts - Service types**](#azure-storage-accounts---service-types)
+- [**Creating a storage account**](#creating-a-storage-account)
+- [**!!** **More on storage accounts !!**](#-more-on-storage-accounts-)
+- [**Working with BLOB service (Lab)**](#working-with-blob-service-lab)
+- [**Storage Accounts - Access Tiers (Lab)**](#storage-accounts---access-tiers-lab)
+- [**Azure File Shares (File Storage)**](#azure-file-shares-file-storage)
+- [**Azure Queue Storage**](#azure-queue-storage)
+- [**Azure Table Storage**](#azure-table-storage)
+- [**Paired Regions**](#paired-regions)
+- [**Azure Development with Queue Service**](#azure-development-with-queue-service)
+- [**Azure SQL Databases**](#azure-sql-databases)
+- [**SQL Data Warehouse (Azure Synapse)**](#sql-data-warehouse-azure-synapse)
+- [**Azure Data Lake Storage**](#azure-data-lake-storage)
+- [**Azure CosmosDB Service â†’ NoSQL Data Store**](#azure-cosmosdb-service-â-nosql-data-store)
+- [**Azure Databricks**](#azure-databricks)
+- [Important Points (Udemy Provided)](#important-points-udemy-provided)
+
+## **Introduction to Azure Storage**
 
 - Storage Accounts
     - blob service → used for object level storage → can be used to store images, videos and other data
@@ -10,7 +29,7 @@
 
 ---
 
-### **Azure Storage Accounts - Service types**
+## **Azure Storage Accounts - Service types**
 
 - Blob storage → object level storage → also used for storing disk files + VM → stored as VHD
 - Table storage → relational table-like data
@@ -19,7 +38,7 @@
 
 ---
 
-### **Creating a storage account**
+## **Creating a storage account**
 
 - Unique storage account name required → same as bucket name
 - General Purpose v2 → gets all services (blob + table + file + queue)
@@ -36,7 +55,7 @@
 
 ---
 
-### **!!** **More on storage accounts !!**
+## **!!** **More on storage accounts !!**
 
 - **Types of storage accounts**
     - General purpose v2 → blob, file, queue and table services
@@ -80,7 +99,7 @@
 
 ---
 
-### **Working with BLOB service (Lab)**
+## **Working with BLOB service (Lab)**
 
 - Create a container for your objects → name + public access level
 
@@ -99,7 +118,7 @@
 
 ---
 
-### **Storage Accounts - Access Tiers (Lab)**
+## **Storage Accounts - Access Tiers (Lab)**
 
 - By default → files are set with Hot Access tier → data will be accessed frequently
 
@@ -123,7 +142,7 @@
 
 ---
 
-### **Azure File Shares (File Storage)**
+## **Azure File Shares (File Storage)**
 
 - Users logging into workstation → create file shares for each user → save data in the cloud
 - Storage can be accessed via SMB (Server Message Block)
@@ -162,7 +181,7 @@
 
 ---
 
-### **Azure Queue Storage**
+## **Azure Queue Storage**
 
 - Why Queue Storage?
     - Videos are stored in a container → application which pick up videos from one container and process it and then store in another container
@@ -179,7 +198,7 @@
 
 ---
 
-### **Azure Table Storage**
+## **Azure Table Storage**
 
 - can be used to store large amount of structure NoSQL data in the cloud
 - key/attribute store → does not conform to any schema
@@ -209,7 +228,7 @@ To better illustrate the concept of partitioning, the following figure shows a t
 
 ---
 
-### **Paired Regions**
+## **Paired Regions**
 
 - RA-GRS → needs to replicate data on another location
 - We don't have the ability to decide what is the secondary region for this replication → Predefined by Azure
@@ -251,7 +270,7 @@ To better illustrate the concept of partitioning, the following figure shows a t
 
 ---
 
-### **Azure Development with Queue Service**
+## **Azure Development with Queue Service**
 
 - Send & Recieve message to and from a queue
 
@@ -283,7 +302,7 @@ namespace SendMessage
 
 ---
 
-### **Azure SQL Databases**
+## **Azure SQL Databases**
 
 - Host SQL Server on Azure
     - Infrastructure as a Service → Install VM and host SQL on top of it
@@ -409,7 +428,7 @@ namespace SendMessage
 
 ---
 
-### **SQL Data Warehouse (Azure Synapse)**
+## **SQL Data Warehouse (Azure Synapse)**
 
 - Data can come from multiple sources → data needs to be collected for performing analysis
 - Data Injestion layer → injesting raw data
@@ -486,7 +505,7 @@ namespace SendMessage
 
 ---
 
-### **Azure Data Lake Storage**
+## **Azure Data Lake Storage**
 
 - Act as a repository for large quantities of raw data
 - data can processed later on → convert to a structured format
@@ -507,7 +526,7 @@ namespace SendMessage
 
 ---
 
-### **Azure CosmosDB Service → NoSQL Data Store**
+## **Azure CosmosDB Service → NoSQL Data Store**
 
 - Multi-model database → support for multiple APIs
     - JSON based documents → Core(SQL)
@@ -556,7 +575,7 @@ namespace SendMessage
 
 ---
 
-### **Azure Databricks**
+## **Azure Databricks**
 
 - Fully managed, cloud-based platform → Big Data + Machine Learning
 - tool → analyze your data
@@ -599,7 +618,7 @@ ds = spark.read.csv("/mnt/data2/customer.csv")
 display(ds)
 ```
 
-# Important Points (Provided)
+## Important Points (Udemy Provided)
 
 Let's go through some important points when it comes the topics discussed in this section
 

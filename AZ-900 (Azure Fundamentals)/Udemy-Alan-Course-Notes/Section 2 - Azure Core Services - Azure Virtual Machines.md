@@ -10,9 +10,10 @@
 - [Azure Pricing/Costing](#azure-pricingcosting)
 - [State of Virtual Machines](#state-of-virtual-machines)
 - [Azure Marketplace](#azure-marketplace)
-- [**Availability Sets**](#availability-sets)
+- [Availability Sets](#availability-sets)
 - [Availability Zones](#availability-zones)
-- [**Azure dedicated hosts**](#azure-dedicated-hosts)
+- [Azure dedicated hosts](#azure-dedicated-hosts)
+- [Important Points (Provided)](#important-points-provided)
 
 ## Virtual Machine Service
 

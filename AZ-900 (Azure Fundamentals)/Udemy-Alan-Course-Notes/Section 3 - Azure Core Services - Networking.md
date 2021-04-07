@@ -1,10 +1,20 @@
 # #3 Azure Core Services - Networking
 
-### **IP Addressing**
+## Table of Contents
+- [IP Addressing](#ip-addressing)
+- [Azure Virtual Network](#azure-virtual-network)
+- [Communication across virtual machines in a virtual network](#communication-across-virtual-machines-in-a-virtual-network)
+- [Network Security Groups (NSG)](#network-security-groups-nsg)
+- [Application Security Groups](#application-security-groups)
+- [Network connectivity options](#network-connectivity-options)
+- [Azure ExpressRoute](#azure-expressroute)
+- [Important Points (Udemy Provided)](#important-points-provided)
+
+## IP Addressing
 
 - For web browser to access the application → needs the IP address which is hosting the application
 
-### **Azure Virtual Network**
+## Azure Virtual Network
 
 - IP address range → 10.1.0.0/16
 - **Subnets → logical separation of resources inside virtual network**
@@ -39,7 +49,7 @@
 
     ![images/section3/Untitled%203.png](images/section3/Untitled%203.png)
 
-### **Communication across virtual machines in a virtual network**
+## Communication across virtual machines in a virtual network
 
 - Add additional subnet for logical separation → choose virtual network + new subnet while creating new VM
 
@@ -59,7 +69,7 @@
     - access default subnet VM from production network → port should be allowed in NSG
     - communication across virtual network is not enabled by default → virtual network peering is required
 
-### **Network Security Groups (NSG)**
+## Network Security Groups (NSG)
 
 - Used to control the traffic that flows in and out of virtual machine
 - gets attached to the network interface that is attached to your VM
@@ -89,14 +99,14 @@
 - Outbound port rule → AllowInternetOutBound → enabled → so VM can access the internet from inside
 - If you have an outbound port rule that disables the AllowInternetOutBound and you have an inbound port rule that allows traffic on port 80, will you still able to access application from outside? → **!! YES !!** (rules are evaluated in isolation to inbound and outbound)
 
-### **Application Security Groups**
+## Application Security Groups
 
 - Applied with the help of network security groups
 - Control traffic on web servers and database servers differently → within the same subnet (without creating separate subnets)
 - Create application security groups → assign web servers and database servers on different application security groups
 - Logical grouping for applications
 
-### **Network connectivity options**
+## Network connectivity options
 
 - Virtual Network Peering
     - Used to connect two virtual networks together → since each virtual network is isolated
@@ -121,7 +131,7 @@
 
     ![images/section3/Untitled%2011.png](images/section3/Untitled%2011.png)
 
-### **Azure ExpressRoute**
+## Azure ExpressRoute
 
 - Stable connection on to Azure → Create ExpressRoute Circuit
 - Traffic flows via Microsoft Backbone network → not usual internet backbone
@@ -133,7 +143,7 @@
 
 ![images/section3/Untitled%2012.png](images/section3/Untitled%2012.png)
 
-# Important Points (Provided)
+## Important Points (Provided)
 
 Let's go through some important points when it comes the topics discussed in this section
 

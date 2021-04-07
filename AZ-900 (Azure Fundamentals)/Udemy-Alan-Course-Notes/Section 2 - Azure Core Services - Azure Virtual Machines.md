@@ -1,6 +1,20 @@
 # #2 Azure Core Services - Azure Virtual Machines
 
-### Virtual Machine Service
+## Table of Contents
+- [Virtual Machine Service](#virtual-machine-service)
+- [Deploying a VM](#deploying-a-vm)
+- [Create a Windows Server VM using Azure (Demo)](#create-a-windows-server-vm-using-azure-demo)
+- [Azure Subscription: Usage + Quotas to see the limits for the subscription](#azure-subscription-usage--quotas-to-see-the-limits-for-the-subscription) 
+- [Generations in VMs Images](#generations-in-vms-images)
+- [Virtual Machine Types/Series](#virtual-machine-typesseries)
+- [Azure Pricing/Costing](#azure-pricingcosting)
+- [State of Virtual Machines](#state-of-virtual-machines)
+- [Azure Marketplace](#azure-marketplace)
+- [**Availability Sets**](#availability-sets)
+- [Availability Zones](#availability-zones)
+- [**Azure dedicated hosts**](#azure-dedicated-hosts)
+
+## Virtual Machine Service
 
 - Create Linux and Windows VMs in seconds
 - Physical servers → Create VMs using Hyper-V or VMware (Manual)
@@ -10,7 +24,7 @@
 - terminate virtual server at any point in time
 - host different types of workloads
 
-### Deploying a VM
+## Deploying a VM
 
 - Resources deployed along a virtual machine
     - Virtual Network → VM resides inside the virtual network
@@ -19,7 +33,7 @@
         - Private IP address/Public IP address
     - Network Security Group assigned to Network Interface Card
 
-### Create a Windows Server VM using Azure (Demo) → EASY
+## Create a Windows Server VM using Azure (Demo)
 
 - Standard D2s V3 - 2 CPUs, 8 GB memory
 - RDP 3389 allow to traffic
@@ -35,11 +49,11 @@
 
 - Connect using RDP → Username + Password
 
-### Azure Subscription → Usage + Quotas to see the limits for the subscription
+## Azure Subscription: Usage + Quotas to see the limits for the subscription
 
 ![images/section2/Untitled%202.png](images/section2/Untitled%202.png)
 
-### Generations in VMs Images
+## Generations in VMs Images
 
 - Generation 1 - earlier machines
 - Generation 2 - new machines → Improved boot architecture + improved boot time
@@ -54,18 +68,18 @@
 
     - Access IIS from outside → Enable port 80 in NSG (Network Security Group) → Networking Tab
 
-### Virtual Machine Types/Series
+## Virtual Machine Types/Series
 
 [Virtual Machine series | Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/)
 
-### Azure Pricing/Costing
+## Azure Pricing/Costing
 
 [Pricing calculator | Microsoft Azure](https://azure.microsoft.com/en-au/pricing/calculator/)
 
 - Cost Management → Cost Analysis
 - Cost Management → Budget
 
-### State of Virtual Machines
+## State of Virtual Machines
 
 - Create VM → allocated OS disk - 127 GB, temporary disk - 4 GB
 - Store data on data disk (not on temporary disk → since it gets deleted on stopping VM)
@@ -90,7 +104,7 @@
 
     ![images/section2/Untitled%206.png](images/section2/Untitled%206.png)
 
-### Azure Marketplace
+## Azure Marketplace
 
 [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/)
 
@@ -100,7 +114,7 @@
 
 ![images/section2/Untitled%208.png](images/section2/Untitled%208.png)
 
-### **Availability Sets**
+## **Availability Sets**
 
 - Set of VMs hosting the same application → load balancing
 - 2 VMs hosted on the same physical server/rack and what if the server goes down, then application also goes down
@@ -147,7 +161,7 @@
 
         ![images/section2/Untitled%2012.png](images/section2/Untitled%2012.png)
 
-### Availability Zones
+## Availability Zones
 
 - more broader than Availability sets (around racks)
 - Unique physical locations that are equipped with independent power, cooling and networking
@@ -169,7 +183,7 @@
     - We have to **manually** spin up new machines in different availability set or zone
     - We have to ensure that same application is deployed in all machines - won't be done automatically → Extensions for the VM can be used here
 
-### **Azure dedicated hosts**
+## **Azure dedicated hosts**
 
 - VMs are created on a physical host in a data centre → This host can be shared across different users
 - Entire physical host can be allocated → Azure dedicated hosts

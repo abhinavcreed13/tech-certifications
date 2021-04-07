@@ -1,7 +1,4 @@
-'''
-    Execute:
-    python toc_generator.py --file="AZ-900 (Azure Fundamentals)\Udemy-Alan-Course-Notes\Section 2 - Azure Core Services - Azure Virtual Machines.md"
-'''
+# Execute: python toc_generator.py --file="AZ-900 (Azure Fundamentals)\Udemy-Alan-Course-Notes\Section 3 - Azure Core Services - Networking.md"
 import argparse
 import md_toc
 

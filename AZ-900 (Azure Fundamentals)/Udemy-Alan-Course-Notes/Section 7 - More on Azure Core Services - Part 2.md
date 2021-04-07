@@ -1,5 +1,24 @@
 # #7 More on Azure Core Services - Part 2
 
+## Table of Contents
+- [Monitoring in Azure](#monitoring-in-azure)
+- [Log Analytics workspace](#log-analytics-workspace)
+- [Azure Kubernetes Service (AKS)](#azure-kubernetes-service-aks)
+- [Azure Content Delivery Network (CDN)](#azure-content-delivery-network-cdn)
+- [Azure Advisor](#azure-advisor)
+- [Application Insights](#application-insights)
+- [Azure DevOps](#azure-devops)
+  - [Azure DevOps Boards](#azure-devops-boards)
+  - [Azure DevOps Repos](#azure-devops-repos)
+  - [Azure DevOps Pipelines](#azure-devops-pipelines)
+  - [Azure DevOps - Release Pipelines](#azure-devops---release-pipelines)
+- [Azure DevTest Labs](#azure-devtest-labs)
+- [Azure Machine Learning Service](#azure-machine-learning-service)
+- [Azure Cognitive Services](#azure-cognitive-services)
+- [Azure Bot Service](#azure-bot-service)
+- [Azure IoT Hub](#azure-iot-hub)
+- [Important Points (Udemy Provided)](#important-points-udemy)
+
 ## Monitoring in Azure
 
 - Monitoring tab inside virtual machine

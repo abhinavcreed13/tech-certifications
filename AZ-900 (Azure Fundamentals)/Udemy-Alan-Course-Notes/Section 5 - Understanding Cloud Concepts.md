@@ -1,6 +1,18 @@
 # #5 Understanding Cloud Concepts
 
-### **Benefits of the cloud - High Availability**
+## Table of Contents
+- [Benefits of the cloud - High Availability](#benefits-of-the-cloud---high-availability)
+- [Benefits of the cloud - Scalability](#benefits-of-the-cloud---scalability)
+- [Benefits of the cloud - Disaster Recovery](#benefits-of-the-cloud---disaster-recovery)
+- [Benefits of the cloud - Elasticity](#benefits-of-the-cloud---elasticity)
+- [Benefits of the cloud - Fault Tolerance](#benefits-of-the-cloud---fault-tolerance)
+- [Cloud Service Models](#cloud-service-models)
+- [Cloud model types](#cloud-model-types)
+- [Economies of scale](#economies-of-scale)
+- [Shared Responsibility Model](#shared-responsibility-model)
+- [Important Points (Udemy Provided)](#important-points-provided)
+
+## **Benefits of the cloud - High Availability**
 
 - Services → concept of High Availability
 - Storage accounts → Replication options
@@ -8,7 +20,7 @@
     - Another option → Geo redundant storage → data copied to different storage clusters
 - Application availability is also available
 
-### **Benefits of the cloud - Scalability**
+## **Benefits of the cloud - Scalability**
 
 - Azure Blob Storage → No storage requirement → Keep on uploading data
     - This service will automatically scale → both in Compute + Storage
@@ -17,20 +29,20 @@
     - Load on the application increases → CPU >80%
         - With ScaleSet → More VMs can be added to the environment so that load gets distributed
 
-### **Benefits of the cloud - Disaster Recovery**
+## **Benefits of the cloud - Disaster Recovery**
 
 - Example → Hosting application in Central US → all services in the region goes down
     - Option 1 → VMs available in another region → techniques to migrate data and app to another region
     - If entire region goes down → Disaster Recovery Scenario
     - Replication option available → replicated across different regions → Paying more now
 
-### **Benefits of the cloud - Elasticity**
+## **Benefits of the cloud - Elasticity**
 
 - How systems can adapt to workload - by scaling and descaling based on the load
 - CPU% is going beyond some threshold → upscaling required
     - Quick way → **Resize** the VM to add more CPUs and Memory → option available
 
-### **Benefits of the cloud - Fault Tolerance**
+## **Benefits of the cloud - Fault Tolerance**
 
 - How tolerant is your application/system is to fault?
 - Published new version and application broke → How well your application can recover?
@@ -38,7 +50,7 @@
 - VM service → Have a good SLA
 - VMs → make use of Availability Zones/Availability Sets → makes VM fault tolerant (Features)
 
-### **Cloud Service Models**
+## **Cloud Service Models**
 
 - IaaS vs PaaS vs SaaS
 
@@ -62,7 +74,7 @@
     - No need to manage anything
     - Directly use the application on Internet
 
-### **Cloud model types**
+## **Cloud model types**
 
 - Public cloud → available through the internet to user
     - Azure, AWS, GCP
@@ -86,7 +98,7 @@
     - functionalities can be extended using public cloud environment
     - move workloads to the cloud gradually
 
-### **Economies of scale**
+## **Economies of scale**
 
 - Ability of carrying out tasks more efficiently or at a lower-cost per unit → operating at a larger scale
 - Cloud providers buy the hardware at discount → pass the costs to customers
@@ -104,7 +116,7 @@
     - yearly support agreement with vendors → need to renewed
     - keep hardware running → electricity, cooling, etc
 
-### **Shared Responsibility Model**
+## **Shared Responsibility Model**
 
 [https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility](https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
 
@@ -121,7 +133,7 @@
     - Account
     - Access management
 
-# Important Points (Provided)
+## Important Points (Provided)
 
 Let's go through some important points when it comes the topics discussed in this section
 

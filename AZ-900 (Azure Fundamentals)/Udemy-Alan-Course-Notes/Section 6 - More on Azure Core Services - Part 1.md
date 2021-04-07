@@ -1,6 +1,22 @@
 # #6 More on Azure Core Services - Part 1
 
-### **Azure Web Apps**
+## Table of Contents
+- [Azure Web Apps](#azure-web-apps)
+- [Azure App Service Plans](#azure-app-service-plans)
+- [Azure Web Apps (Demo)](#azure-web-apps-demo)
+- [Virtual Machine Scale Sets](#virtual-machine-scale-sets)
+- [Azure Load Balancer Service](#azure-load-balancer-service)
+- [Azure Resource Manager Templates (ARM)](#azure-resource-manager-templates-arm)
+- [Azure Traffic Manager Service](#azure-traffic-manager-service)
+- [Using powershell](#using-powershell)
+- [Using Azure Dedicated Command-Line Interface (CLI)](#using-azure-dedicated-command-line-interface-cli)
+- [Using Azure Cloud Shell](#using-azure-cloud-shell)
+- [Azure Serverless Services](#azure-serverless-services)
+- [Azure Functions](#azure-functions)
+- [Azure Logic Apps](#azure-logic-apps)
+- [Important Points (Udemy Provided)](#important-points)
+
+## **Azure Web Apps**
 
 - In-house developed web app → any language → deploy on Azure?
     - Create new VM → then host your application
@@ -12,7 +28,7 @@
     - Features such as Autoscaling + Security
     - DevOps capabilities → includes Continuous deployment
 
-### Azure App Service Plans
+## Azure App Service Plans
 
 [App Service Pricing | Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/app-service/windows/)
 
@@ -24,7 +40,7 @@
 
     ![images/section6/Untitled%201.png](images/section6/Untitled%201.png)
 
-### **Azure Web Apps (Demo)**
+## **Azure Web Apps (Demo)**
 
 - Create Azure Web App Resource with instance name → .azurewebsites.net (appended)
 
@@ -42,7 +58,7 @@
 
 ---
 
-### **Virtual Machine Scale Sets**
+## **Virtual Machine Scale Sets**
 
 - Application being accessed by a lot of users → CPU % is going beyond 90% → performance issue
     - One option → increase the instance size (Resize is allowed) → might not completely solve it
@@ -82,7 +98,7 @@
 
 ---
 
-### **Azure Load Balancer Service**
+## **Azure Load Balancer Service**
 
 - Scenario → Virtual Network defined and in 1 subnet have 2 VMs
 - Distribute load of the user to be equally distributed across 2 VMs
@@ -137,7 +153,7 @@
 
 ---
 
-### **Azure Resource Manager Templates (ARM)**
+## **Azure Resource Manager Templates (ARM)**
 
 - Easily deploy your underlying infrastructure using infrastructure as code
 - help automate repetitive deployments
@@ -169,7 +185,7 @@
 
 ---
 
-### **Azure Traffic Manager Service**
+## **Azure Traffic Manager Service**
 
 - A DNS-based routing service
 - This routes traffic based on DNS
@@ -207,7 +223,7 @@
 
 ---
 
-### Using powershell
+## Using powershell
 
 - Powershell can be used with Azure Modules
 - Open powershell as administrator
@@ -247,7 +263,7 @@ Set-AzureStorageBlobContent -File "Filelocation+name" -Container $containerName 
 
 ---
 
-### Using Azure Dedicated Command-Line Interface (CLI)
+## Using Azure Dedicated Command-Line Interface (CLI)
 
 [Install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
@@ -272,7 +288,7 @@ az storage blob upload --file "Filelocation+FileName" --container-name "Yourcont
 
 ---
 
-### Using Azure Cloud Shell
+## Using Azure Cloud Shell
 
 - Can be used in the Azure portal
 - Either powershell or Bash can be used
@@ -281,7 +297,7 @@ az storage blob upload --file "Filelocation+FileName" --container-name "Yourcont
 
 ---
 
-### Azure Serverless Services
+## Azure Serverless Services
 
 - Azure Functions → best example
 - Deploy some function as code → VMs needs to be deployed
@@ -301,7 +317,7 @@ az storage blob upload --file "Filelocation+FileName" --container-name "Yourcont
 
 ---
 
-### Azure Functions
+## Azure Functions
 
 - Application → multiple functions
 - If you want to host only functions → invoked whenever they are required
@@ -348,7 +364,7 @@ az storage blob upload --file "Filelocation+FileName" --container-name "Yourcont
 
 ---
 
-### Azure Logic Apps
+## Azure Logic Apps
 
 - helps you schedule, automate and orchestrate tasks, business processes and workflows
 - Design a workflow in Azure Logic Apps → workflow starts with a trigger → trigger is fired via a specific event
@@ -385,7 +401,7 @@ az storage blob upload --file "Filelocation+FileName" --container-name "Yourcont
 
             ![images/section6/Untitled%2033.png](images/section6/Untitled%2033.png)
 
-# Important Points
+## Important Points
 
 Let's go through some important points when it comes the topics discussed in this section
 

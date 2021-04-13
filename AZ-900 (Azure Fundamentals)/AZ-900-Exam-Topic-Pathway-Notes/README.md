@@ -1,10 +1,10 @@
 # AZ-900 Exam Topics Pathway Notes
 
 ## Table of Contents
-- [#1 - Describe Cloud Concepts (20-25%)]()
-- [#2 - Describe Core Azure Services (15-20%)]()
-- [#3 - Describe core solutions and management tools on Azure (10-15%)]()
-- [#4 - Describe general security and network security features (10-15%)]()
-- [#5 - Describe identity, governance, privacy, and compliance features (20-25%)]()
-- [#6 - Describe Azure cost management and Service Level Agreements (10-15%)]()
-- [#7 - Important Questions (Points)]()
+- [#1 - Describe Cloud Concepts (20-25%)](https://github.com/abhinavcreed13/tech-certifications/blob/main/AZ-900%20(Azure%20Fundamentals)/AZ-900-Exam-Topic-Pathway-Notes/%231%20-%20Describe%20Cloud%20Concepts%20(20-25%25).md)
+- [#2 - Describe Core Azure Services (15-20%)](https://github.com/abhinavcreed13/tech-certifications/blob/main/AZ-900%20(Azure%20Fundamentals)/AZ-900-Exam-Topic-Pathway-Notes/%232%20-%20Describe%20Core%20Azure%20Services%20(15-20%25).md)
+- [#3 - Describe core solutions and management tools on Azure (10-15%)](https://github.com/abhinavcreed13/tech-certifications/blob/main/AZ-900%20(Azure%20Fundamentals)/AZ-900-Exam-Topic-Pathway-Notes/%233%20-%20Describe%20core%20solutions%20and%20management%20tools%20on%20Az.md)
+- [#4 - Describe general security and network security features (10-15%)](https://github.com/abhinavcreed13/tech-certifications/blob/main/AZ-900%20(Azure%20Fundamentals)/AZ-900-Exam-Topic-Pathway-Notes/%234%20-%20Describe%20general%20security%20and%20network%20security%20fea.md)
+- [#5 - Describe identity, governance, privacy, and compliance features (20-25%)](https://github.com/abhinavcreed13/tech-certifications/blob/main/AZ-900%20(Azure%20Fundamentals)/AZ-900-Exam-Topic-Pathway-Notes/%235%20-%20Describe%20identity%2C%20governance%2C%20privacy%2C%20and%20compli.md)
+- [#6 - Describe Azure cost management and Service Level Agreements (10-15%)](https://github.com/abhinavcreed13/tech-certifications/blob/main/AZ-900%20(Azure%20Fundamentals)/AZ-900-Exam-Topic-Pathway-Notes/%236%20-%20Describe%20Azure%20cost%20management%20and%20Service%20Level%20A.md)
+- [#7 - Important Questions (Points)](https://github.com/abhinavcreed13/tech-certifications/blob/main/AZ-900%20(Azure%20Fundamentals)/AZ-900-Exam-Topic-Pathway-Notes/%237%20-%20Important%20Questions%20(Points).md)

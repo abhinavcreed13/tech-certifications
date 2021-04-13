@@ -1,5 +1,21 @@
 # #9 Understand Azure Pricing and Support
 
+## Table of contents
+- [Service lifecycle in Azure](#service-lifecycle-in-azure)
+- [Support options in Azure](#support-options-in-azure)
+- [Factors that affect the cost](#factors-that-affect-the-cost)
+- [Cloud Adoption Framework](#cloud-adoption-framework)
+- [Azure Service Level Agreements (SLA)](#azure-service-level-agreements-sla)     
+- [Azure Support Plans](#azure-support-plans)
+- [Total cost of Ownership](#total-cost-of-ownership)
+- [Creating budgets in Azure](#creating-budgets-in-azure)
+- [Resource Tags](#resource-tags)
+- [Reserved Instances](#reserved-instances)
+- [Spot VMs](#spot-vms)
+- [Example Invoice](#example-invoice)
+- [Sample Architecture](#sample-architecture)
+- [Important Points (Udemy Provided)](#important-points-udemy-provided)
+
 ## Service lifecycle in Azure
 
 - Azure updates can be seen online → features which are released and which are in preview

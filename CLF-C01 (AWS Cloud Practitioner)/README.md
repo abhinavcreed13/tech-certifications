@@ -1,4 +1,4 @@
-# AWS Certified Cloud Practitioner (CLF-C01)
+# AWS Certified Cloud Practitioner (CLF-C01) Notes
 
 ## AWS Cloud Practitioner Partner Training Notes
   - [Module 1: Introduction to the AWS cloud](https://github.com/abhinavcreed13/tech-certifications/tree/main/CLF-C01%20(AWS%20Cloud%20Practitioner)/CP-Partner-Training-Notes#module-1-introduction-to-the-aws-cloud)

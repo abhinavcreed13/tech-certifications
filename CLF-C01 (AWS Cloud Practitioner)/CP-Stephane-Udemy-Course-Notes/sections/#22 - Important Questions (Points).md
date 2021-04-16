@@ -199,7 +199,7 @@ How Multi-AZ Works:
 
 Please review the differences between Multi-AZ, Multi-Region and Read Replica deployments for RDS:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled.png)
+![../images/section22/Untitled.png](../images/section22/Untitled.png)
 
 ---
 
@@ -213,13 +213,13 @@ other AWS services.
 
 How CloudTrail Works:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%201.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%201.png)
+![../images/section22/Untitled%201.png](../images/section22/Untitled%201.png)
 
 ---
 
 Please check out the following six advantages of Cloud Computing. You would certainly be asked questions on the advantages of Cloud Computing compared to a traditional on-premises setup:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%202.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%202.png)
+![../images/section22/Untitled%202.png](../images/section22/Untitled%202.png)
 
 ---
 
@@ -244,7 +244,7 @@ applications (such as Salesforce, Office 365, and Box), and custom-built
 
 How AWS SSO works:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%203.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%203.png)
+![../images/section22/Untitled%203.png](../images/section22/Untitled%203.png)
 
 ---
 
@@ -262,7 +262,7 @@ horizontal scaling of resources.**
 
 Read Replica Overview:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%204.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%204.png)
+![../images/section22/Untitled%204.png](../images/section22/Untitled%204.png)
 
 ---
 
@@ -287,7 +287,7 @@ time, the volume is probably not being used.
 
 How Trusted Advisor Works:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%205.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%205.png)
+![../images/section22/Untitled%205.png](../images/section22/Untitled%205.png)
 
 ---
 
@@ -295,7 +295,7 @@ How Trusted Advisor Works:
 
 How AWS Trusted Advisor identifies low utilization Amazon EC2 instances:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%206.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%206.png)
+![../images/section22/Untitled%206.png](../images/section22/Untitled%206.png)
 
 **AWS Cost Explorer**
 
@@ -332,7 +332,7 @@ launched. If the AMI exists in a different region, you can copy that AMI
  to the region where you want to launch the EC2 instance. The region of 
 AMI has no bearing on the performance of the EC2 instance.
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%207.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%207.png)
+![../images/section22/Untitled%207.png](../images/section22/Untitled%207.png)
 
 ---
 
@@ -353,7 +353,7 @@ use-case since the thumbnails can be regenerated easily.
 As the thumbnails are rarely used but need to be rapidly accessed 
 when required, so S3 One Zone-IA is the best choice for this use-case.
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%208.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%208.png)
+![../images/section22/Untitled%208.png](../images/section22/Untitled%208.png)
 
 ---
 
@@ -383,7 +383,7 @@ Organizations is available to all AWS customers at no additional charge.
 
 Key Features of AWS Organizations:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%209.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%209.png)
+![../images/section22/Untitled%209.png](../images/section22/Untitled%209.png)
 
 ---
 
@@ -432,7 +432,7 @@ provisioning, software patching, high-availability, and backups.
 
 Please review this detailed description of how CloudHSM works:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2010.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2010.png)
+![../images/section22/Untitled%2010.png](../images/section22/Untitled%2010.png)
 
 ---
 
@@ -456,7 +456,7 @@ sensitive data, such as personally identifiable information (PII).
 
 How Macie Works:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2011.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2011.png)
+![../images/section22/Untitled%2011.png](../images/section22/Untitled%2011.png)
 
 ---
 
@@ -464,13 +464,13 @@ How Macie Works:
 
 U2F security key - Universal 2nd Factor (U2F) Security Key is a device that you can plug into a USB port on your computer. U2F is an open authentication standard hosted by the FIDO Alliance. When you enable a U2F security key, you sign in by entering your credentials and then tapping the device instead of manually entering a code.
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2012.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2012.png)
+![../images/section22/Untitled%2012.png](../images/section22/Untitled%2012.png)
 
 ---
 
 Route 53 Routing Policy Overview:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2013.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2013.png)
+![../images/section22/Untitled%2013.png](../images/section22/Untitled%2013.png)
 
 ---
 
@@ -488,7 +488,7 @@ hours.
 
 S3 Glacier Deep Archive Overview:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2014.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2014.png)
+![../images/section22/Untitled%2014.png](../images/section22/Untitled%2014.png)
 
 ---
 
@@ -558,7 +558,7 @@ generate metadata for media assets.
 
 Amazon Transcribe Use-Cases:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2015.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2015.png)
+![../images/section22/Untitled%2015.png](../images/section22/Untitled%2015.png)
 
 You can use Amazon Polly to turn text into lifelike speech thereby 
 allowing you to create applications that talk. Polly's Text-to-Speech 
@@ -567,7 +567,7 @@ natural sounding human speech.
 
 Amazon Polly Benefits:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2016.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2016.png)
+![../images/section22/Untitled%2016.png](../images/section22/Untitled%2016.png)
 
 ---
 
@@ -601,7 +601,7 @@ customers access the endpoints to store and retrieve data.
 
 Shared Responsibility Model Overview:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2017.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2017.png)
+![../images/section22/Untitled%2017.png](../images/section22/Untitled%2017.png)
 
 ---
 
@@ -619,7 +619,7 @@ configurations.
 
 How AWS Config works:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2018.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2018.png)
+![../images/section22/Untitled%2018.png](../images/section22/Untitled%2018.png)
 
 ---
 
@@ -746,7 +746,7 @@ the Reserved Instance.
 
 Please review this pricing comparison for EC2 Reserved Instances:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2019.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2019.png)
+![../images/section22/Untitled%2019.png](../images/section22/Untitled%2019.png)
 
 ---
 
@@ -830,7 +830,7 @@ to country mapping is 99.8%.
 
 How WAF Works:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2020.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2020.png)
+![../images/section22/Untitled%2020.png](../images/section22/Untitled%2020.png)
 
 **Route 53**
 
@@ -886,7 +886,7 @@ gateways – Tape Gateway, File Gateway, and Volume Gateway – that
 seamlessly connect on-premises applications to cloud storage, caching 
 data locally for low-latency access.
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2021.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2021.png)
+![../images/section22/Untitled%2021.png](../images/section22/Untitled%2021.png)
 
 ---
 
@@ -939,7 +939,7 @@ access to AWS resources until permissions are explicitly granted.
 
 **The Concierge Support Team is only available for the Enterprise Support plan**. The Concierge Team are AWS billing and account experts that specialize in working with enterprise accounts. They will quickly and efficiently assist you with your billing and account inquiries. Enterprise Support plan provides a response time of fewer than 15 minutes for business-critical systems and provides a response time of less than an hour for production systems related outage. So this is the correct option.
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2022.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2022.png)
+![../images/section22/Untitled%2022.png](../images/section22/Untitled%2022.png)
 
 ---
 
@@ -963,7 +963,7 @@ and Edge Locations.
 
 AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS. Simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time. There is no additional charge for Elastic Beanstalk - you pay only for the AWS resources needed to store and run your applications.
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2023.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2023.png)
+![../images/section22/Untitled%2023.png](../images/section22/Untitled%2023.png)
 
 ---
 
@@ -987,7 +987,7 @@ you consider Amazon SQS and Amazon SNS.
 
 How MQ works:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2024.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2024.png)
+![../images/section22/Untitled%2024.png](../images/section22/Untitled%2024.png)
 
 ---
 
@@ -1027,7 +1027,7 @@ static IP addresses or deterministic, fast regional failover.
 
 How Global Accelerator Works:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2025.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2025.png)
+![../images/section22/Untitled%2025.png](../images/section22/Untitled%2025.png)
 
 ---
 
@@ -1035,7 +1035,7 @@ A customer has created a VPC and a subnet within AWS Cloud. Which of the followi
 
 A VPC spans all of the Availability Zones in the Region whereas a subnet spans only one Availability Zone in the Region
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2026.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2026.png)
+![../images/section22/Untitled%2026.png](../images/section22/Untitled%2026.png)
 
 ---
 
@@ -1145,7 +1145,7 @@ automatically encrypted and never travels over the public internet.
 
 How Transit Gateway can simplify your network:
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2027.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2027.png)
+![../images/section22/Untitled%2027.png](../images/section22/Untitled%2027.png)
 
 ---
 
@@ -1381,7 +1381,7 @@ Cloud as well as on-premises infrastructure.
 
 AWS Systems Manager offers utilities for running commands, patch-management and configuration compliance
 
-![Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2028.png](Important%20Questions%20(Points)%205a69974d327b449dba7d0e462885041b/Untitled%2028.png)
+![../images/section22/Untitled%2028.png](../images/section22/Untitled%2028.png)
 
 ---
 

@@ -1,25 +1,32 @@
 # Section 20: Other AWS Services
 
+## Table of contents
+  - [Amazon WorkSpaces](#amazon-workspaces)
+  - [Amazon AppStream 2.0](#amazon-appstream-20)
+  - [Amazon Sumerian](#amazon-sumerian)
+  - [AWS IoT Core](#aws-iot-core)
+  - [Amazon Elastic Transcoder](#amazon-elastic-transcoder)
+
 ## Amazon WorkSpaces
 
-![Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled.png](Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled.png)
+![../images/section20/Untitled.png](../images/section20/Untitled.png)
 
 ## Amazon AppStream 2.0
 
-![Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled%201.png](Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled%201.png)
+![../images/section20/Untitled%201.png](../images/section20/Untitled%201.png)
 
 - AppStream vs WorkSpaces
 
-    ![Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled%202.png](Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled%202.png)
+    ![../images/section20/Untitled%202.png](../images/section20/Untitled%202.png)
 
 ## Amazon Sumerian
 
-![Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled%203.png](Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled%203.png)
+![../images/section20/Untitled%203.png](../images/section20/Untitled%203.png)
 
 ## AWS IoT Core
 
-![Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled%204.png](Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled%204.png)
+![../images/section20/Untitled%204.png](../images/section20/Untitled%204.png)
 
 ## Amazon Elastic Transcoder
 
-![Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled%205.png](Section%2020%20Other%20AWS%20Services%206c552428692f4d9d8d91c80934996a0b/Untitled%205.png)
+![../images/section20/Untitled%205.png](../images/section20/Untitled%205.png)

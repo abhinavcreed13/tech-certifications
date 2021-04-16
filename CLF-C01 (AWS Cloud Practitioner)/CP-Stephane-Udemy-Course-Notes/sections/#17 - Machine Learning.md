@@ -1,41 +1,51 @@
 # Section 17: Machine Learning
 
+## Table of contents
+  - [Amazon Rekognition](#amazon-rekognition)
+  - [Amazon Transcribe](#amazon-transcribe)
+  - [Amazon Polly](#amazon-polly)
+  - [Amazon Translate](#amazon-translate)
+  - [Amazon Lex & Connect](#amazon-lex--connect)
+  - [Amazon Comprehend](#amazon-comprehend)
+  - [Amazon SageMaker](#amazon-sagemaker)
+  - [Machine Learning Summary](#machine-learning-summary)
+
 ## Amazon Rekognition
 
-![Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled.png](Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled.png)
+![../images/section17/Untitled.png](../images/section17/Untitled.png)
 
 ## Amazon Transcribe
 
-![Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%201.png](Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%201.png)
+![../images/section17/Untitled%201.png](../images/section17/Untitled%201.png)
 
 - Amazon Transcribe Console
 
-    ![Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%202.png](Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%202.png)
+    ![../images/section17/Untitled%202.png](../images/section17/Untitled%202.png)
 
 ## Amazon Polly
 
-![Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%203.png](Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%203.png)
+![../images/section17/Untitled%203.png](../images/section17/Untitled%203.png)
 
 - Amazon Polly Console
 
-    ![Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%204.png](Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%204.png)
+    ![../images/section17/Untitled%204.png](../images/section17/Untitled%204.png)
 
 ## Amazon Translate
 
-![Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%205.png](Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%205.png)
+![../images/section17/Untitled%205.png](../images/section17/Untitled%205.png)
 
 ## Amazon Lex & Connect
 
-![Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%206.png](Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%206.png)
+![../images/section17/Untitled%206.png](../images/section17/Untitled%206.png)
 
 ## Amazon Comprehend
 
-![Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%207.png](Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%207.png)
+![../images/section17/Untitled%207.png](../images/section17/Untitled%207.png)
 
 ## Amazon SageMaker
 
-![Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%208.png](Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%208.png)
+![../images/section17/Untitled%208.png](../images/section17/Untitled%208.png)
 
 ## Machine Learning Summary
 
-![Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%209.png](Section%2017%20Machine%20Learning%2056a70a26062f438e977fc736fdc0ae44/Untitled%209.png)
+![../images/section17/Untitled%209.png](../images/section17/Untitled%209.png)

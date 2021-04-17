@@ -12,6 +12,8 @@ Repository for all certification notes and timelines.
 
 ## AZ-900 (Azure Fundamentals)
 
+Accomplishment: [https://abhinavcreed13.github.io/accomplishments/az-900-3/](https://abhinavcreed13.github.io/accomplishments/az-900-3/){:target="_blank"}
+
 ### AZ-900 Exam Topics Pathway Notes
 - [#1 - Describe Cloud Concepts (20-25%)](https://github.com/abhinavcreed13/tech-certifications/blob/main/AZ-900%20(Azure%20Fundamentals)/AZ-900-Exam-Topic-Pathway-Notes/%231%20-%20Describe%20Cloud%20Concepts%20(20-25%25).md)
 - [#2 - Describe Core Azure Services (15-20%)](https://github.com/abhinavcreed13/tech-certifications/blob/main/AZ-900%20(Azure%20Fundamentals)/AZ-900-Exam-Topic-Pathway-Notes/%232%20-%20Describe%20Core%20Azure%20Services%20(15-20%25).md)
@@ -35,6 +37,8 @@ Repository for all certification notes and timelines.
 - [Section 11 - Important Questions (Points)](https://github.com/abhinavcreed13/tech-certifications/blob/main/AZ-900%20(Azure%20Fundamentals)/Udemy-Alan-Course-Notes/Section%2011%20-%20Important%20Questions%20(Points).md)
 
 ## CLF-C01 (AWS Certified Cloud Practitioner)
+
+Accomplishment: [https://abhinavcreed13.github.io/accomplishments/aws-clf-c01-2/](https://abhinavcreed13.github.io/accomplishments/aws-clf-c01-2/){:target="_blank"}
 
 ### AWS Cloud Practitioner Partner Training Notes
   - [Module 1: Introduction to the AWS cloud](https://github.com/abhinavcreed13/tech-certifications/tree/main/CLF-C01%20(AWS%20Cloud%20Practitioner)/CP-Partner-Training-Notes#module-1-introduction-to-the-aws-cloud)
